@@ -4,6 +4,10 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * @author (author name is krishnaanupam56@gmail.com)
+ */
+
 public class PatternMatching
 {
     public static void main(String[] args)
@@ -19,7 +23,7 @@ public class PatternMatching
             System.out.println("0. Exit");
 
             choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
 
             switch (choice)
             {
